@@ -1,0 +1,163 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+/************************* SELECTOR STYLES ********************************************/
+body {
+  background-color: #eeeeee;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  color: #eeeeee;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5rem;
+  color: #222831;
+  font-weight: lighter;
+}
+
+.inge {
+  color: #eeeeee;
+  clear: right;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  color: #00adb5;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+/************************* CLASS STYLES ********************************************/
+.topContainer {
+  /* color: #222831;
+  font-family: Lato, sans-serif; */
+  padding-top: 100px;
+  background-color: #393e46;
+  color: #222831;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 35%;
+  top: 70px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 300px;
+  left: 25%;
+  display: inline-block;
+}
+
+.skills {
+  margin: auto;
+  width: 100%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  display: inline-block;
+}
+
+.intro {
+  width: 35%;
+  margin: auto;
+}
+
+.round-image {
+  border-radius: 50%;
+  width: 15%;
+  margin-top: 50px;
+}
+
+.chili-image {
+  width: 35%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.pc-image {
+  width: 35%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.footer-link {
+  color: #eeeeee;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #5cbf2a;
+}
+
+.barra {
+  width: 100px;
+  border-style: dotted none none none;
+  border-width: 10px;
+  margin: 100px auto;
+  color: #888888;
+}
+
+.contact-me {
+  margin-bottom: 30px;
+}
+
+/* .middleContainer {} */
+.bottomContainer {
+  color: #eeeeee;
+  line-height: 2.4;
+  padding: 5px;
+  font-family: 'Lato', sans-serif;
+  background-color: #393e46;
+  margin: 0;
+}
+
+.copy {
+  font-size: 0.7rem;
+  font-weight: lighter;
+}
+
+/* +++++++++++++++++++++++++++++ BOTON +++++++++++++++++++++++++++++++ */
+.myButton {
+  background-color: #00adb5;
+  border-radius: 28px;
+  border: 1px solid #00adb5;
+  display: inline-block;
+  cursor: pointer;
+  color: #eeeeee;
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #393e46;
+  margin-top: 30px;
+}
+
+.myButton:hover {
+  background-color: #5cbf2a;
+  border: 1px solid #5cbf2a;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
