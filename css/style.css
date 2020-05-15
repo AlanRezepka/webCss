@@ -1,11 +1,12 @@
 /*
 font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif; */
+font-family: 'Montserrat', sans-serif;
+Voy a seguir agragndo codigo para probar */
 /************************* SELECTOR STYLES ********************************************/
 body {
   background-color: #eeeeee;
   text-align: center;
-  margin: 0;
+  margin: 0 0 0 0;
 }
 
 h1 {
